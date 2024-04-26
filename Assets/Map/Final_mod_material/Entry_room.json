@@ -1,0 +1,143 @@
+{
+    "nodeDatas": [
+        {
+            "location": [
+                1123.69189453125,
+                328.3880615234375
+            ],
+            "name": "NULL.ShaderNodeOutputMaterial.Material Output"
+        },
+        {
+            "connections0Name": [
+                "Normal"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBsdfPrincipled.Principled BSDF"
+            ],
+            "location": [
+                322.9268798828125,
+                -84.62515258789062
+            ],
+            "name": "ShaderNodeNormalMap.Normal Map",
+            "properties": [
+                "1.0",
+                "0.5",
+                "0.5",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "connections0Name": [
+                "Color"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeNormalMap.Normal Map"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                -275.9091796875,
+                -51.506103515625
+            ],
+            "name": "ShaderNodeTexImage.Image Texture.006"
+        },
+        {
+            "connections0Name": [
+                "Roughness"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBsdfPrincipled.Principled BSDF"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                -256.36767578125,
+                277.623046875
+            ],
+            "name": "ShaderNodeTexImage.Image Texture.005"
+        },
+        {
+            "location": [
+                618.94287109375,
+                326.1583251953125
+            ],
+            "name": "NULL.ShaderNodeBsdfPrincipled.Principled BSDF"
+        },
+        {
+            "connections0Name": [],
+            "connections0NodeName": [],
+            "connections1Name": [
+                "Vector"
+            ],
+            "connections1NodeName": [
+                "ShaderNodeMapping.Mapping"
+            ],
+            "connections2Name": [],
+            "connections2NodeName": [],
+            "connections3Name": [],
+            "connections3NodeName": [],
+            "connections4Name": [],
+            "connections4NodeName": [],
+            "location": [
+                -801.40966796875,
+                325.37646484375
+            ],
+            "name": "ShaderNodeTexCoord.Texture Coordinate"
+        },
+        {
+            "connections0Name": [
+                "Base Color"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeBsdfPrincipled.Principled BSDF"
+            ],
+            "connections1Name": [],
+            "connections1NodeName": [],
+            "location": [
+                -268.78759765625,
+                585.2100830078125
+            ],
+            "name": "ShaderNodeTexImage.Image Texture.004"
+        },
+        {
+            "connections0Name": [
+                "Vector",
+                "Vector",
+                "Vector"
+            ],
+            "connections0NodeName": [
+                "ShaderNodeTexImage.Image Texture.004",
+                "ShaderNodeTexImage.Image Texture.005",
+                "ShaderNodeTexImage.Image Texture.006"
+            ],
+            "location": [
+                -621.40966796875,
+                325.37646484375
+            ],
+            "name": "ShaderNodeMapping.Mapping",
+            "properties": [
+                "POINT",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "0.0",
+                "1.0",
+                "1.0",
+                "1.0"
+            ]
+        },
+        {
+            "name": "EXTRA",
+            "properties": [
+                "True",
+                "False"
+            ]
+        }
+    ]
+}

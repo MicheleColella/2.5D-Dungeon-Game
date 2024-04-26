@@ -1,0 +1,13 @@
+			CharacterSprite_
+AirCrouchStraight
+FallSide
+AirCrouchSideUp
+AirCrouchSideDown
+CrouchIdle
+Sprint
+BrakeRun
+FallUpStraight
+FallUpSide
+Zipline
+Skateline
+Skateline 0
